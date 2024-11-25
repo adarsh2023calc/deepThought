@@ -128,7 +128,7 @@ class Scraper:
 
 if __name__ == "__main__":
     # Load input data
-    df = pd.read_csv("Rename.csv", delimiter=",")
+    df = pd.read_csv("companies.csv", delimiter=",")
     df.columns = ['col1', 'col2', 'col3', 'col4']
     
     # Start the scraping process
